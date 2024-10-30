@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c891770157d87c40f5879cba4d3fa1d7",
+    "packages": [
+        {
+            "name": "clearcode/wordpress-framework",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ClearcodeHQ/wordpress-framework.git",
+                "reference": "31212cd8dff99c1d44a02986023c73ce203a24f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ClearcodeHQ/wordpress-framework/zipball/31212cd8dff99c1d44a02986023c73ce203a24f3",
+                "reference": "31212cd8dff99c1d44a02986023c73ce203a24f3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Clearcode\\Framework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://github.com/PiotrPress"
+                },
+                {
+                    "name": "Clearcode",
+                    "homepage": "https://github.com/ClearcodeHQ"
+                }
+            ],
+            "description": "WordPress Framework boilerplate by Clearcode.",
+            "homepage": "https://clearcode.cc",
+            "keywords": [
+                "blog",
+                "boilerplate",
+                "cms",
+                "composer",
+                "framework",
+                "wordpress",
+                "wp"
+            ],
+            "time": "2018-02-23T14:04:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}
